@@ -16,7 +16,7 @@ export const APP_CONFIG = {
 };
 
 export const API_CONFIG = {
-  BASE_URL: process.env.REACT_APP_API_URL || 'http://localhost:3001',
+  BASE_URL: process.env.REACT_APP_API_URL || 'https://seu-backend.onrender.com',
   TIMEOUT: 10000,
   RETRY_ATTEMPTS: 3
 };
